@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Login and Registration Form in HTML | CodingNepal</title>
+      <link rel="stylesheet" href="../css/main.css">
+   </head>
+   <body>
+    <header>
+        <div class="container_header">
+            <nav id="header">
+                    <div class="colL">
+                <ul style="none">
+                    <li><a href="../index.html">Main</a></li>
+                    <li><a href="#sub">Subscribe</a></li>
+                    <li><a href="../pages/Information.html">Information</a></li>
+                </ul>
+                    </div>
+                    <div class="img_logo">
+                        <a href="../index.html"><img src="../images/logonew.png" id="logo"></a>
+                    </div>
+                    <div class="colR">
+                <ul style="none">
+                    <li><a href="../pages/Privacy.html">Privacy</a></li>
+                    <li><a href="../pages/contacts.html">Contacts</a></li>
+                    <li><a href="../pages/login.html">Login</a></li>
+                </ul>
+                    </div>
+
+            </nav>
+        </div>
+        <!-- Бегущая строка -->
+        <nav>
+            <div class="marquee-container">
+                <p class="marquee"> </p>
+            </div>
+        </nav>
+        <!-- / Бегущая строка -->
+        <div class="def">
+            <ul style="none">
+                <li><a href="../pages/collection1.html" >COLLECTION K22</a></li>
+                <li><a href="../pages/collection2.html" >COLLECTION LY34</a></li>
+                <li><a href="../pages/collection3.html" >COLLECTION WX5</a></li>
+                <li><a href="../pages/sale.html" >SALE</a></li>
+            </ul>
+        </div>
+    </header>
+        <!-- / Шапка -->
+      <main>
+        <div class="container_contacts">
+            <div id="map" class="map">
+
+            </div>
+
+            <div class="contacts_information">
+                <img src="../images/trol.gif" id="skullgif">
+                <h1>SBTSTU SHOWROOM</h1>
+                <h1>Санкт-Петербург, Проспект Энгельса 23</h1>
+                <h1>Phone: +7 (917) 927-85-65</h1>
+                <h1>Email: millionware@mail.ru</h1>
+                <p>Наш шоурум открыт по будням с 9:00 до 18:00.
+                <br>С выходными и обедами.</p>
+            </div>
+        
+        </div>
+      </main>
+        <!-- Нижняя часть-->
+    <footer>
+        <div class="container_social">
+            <a name="sub"></a>
+            <div>
+                <h2>WELCOME TO OUR WORLD.</h2>
+                <div>
+                    <div>
+                        <h1>SOCIAL LINKS</h1>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"><img src="../images/instagramWhite.png" id="social_links"></a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"><img src="../images/telegramWhite.png" id="social_links"></a>
+                    </div>
+                </div>
+                    <p>
+                    Подпишись на обновления
+                    </p>
+                <div class="form_mail">
+                    <form id="form_id" method="post" action="" onsubmit="javascript:return validate('form_id','email');">
+                        <input type="text" id="email" placeholder="YOUR E-MAIL" name="email" />
+                        <input type="submit" value="Submit" />
+                     </form>
+                        <p>
+                            Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c <a href="../pages/Privacy.html">политикой конфиденциальности<a>.
+                        </p>
+                </div>
+                <p>
+                    
+                </p>
+            </div>
+        </div>
+        <div class="container_footer">
+            <div class="footer_ul">
+                <ul>PRODUCT PAGE
+                    <li><a href="../index.html">Main</a></li>
+                    <li><a href="../pages/contacts.html">Adress</a></li>
+                    <li><a href="../pages/support.html">Support</a></li>
+                </ul>
+                
+            </div>
+        </div>
+        
+    </footer>
+        <!-- / Нижняя часть-->
+    
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=fb57db1a-35cb-4865-9b8d-ae67b1470f85&lang=ru_RU">
+	</script>
+    <script src="../js/map.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="../js/form_mail.js"></script>
+</body>
+</html>
